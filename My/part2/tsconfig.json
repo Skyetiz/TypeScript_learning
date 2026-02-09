@@ -1,0 +1,12 @@
+{../tsconfigs/src/**/*../tsconfigs/dist
+  "include": [
+    "part2/src/**/*"
+  ],
+
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "esnext",
+    
+    "outDir": "part2/dist"
+  }
+}
